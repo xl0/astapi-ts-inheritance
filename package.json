@@ -1,0 +1,19 @@
+{
+  "name": "fastapi-ts-inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build ",
+    "generate-client": "openapi --input http://localhost:8000/openapi.json --output ./client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "openapi-typescript-codegen": "^0.24.0",
+    "typescript": "^5.1.3"
+  }
+}
